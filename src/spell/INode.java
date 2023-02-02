@@ -23,5 +23,5 @@ public interface INode {
      *
      * @return the child nodes.
      */
-    INode[] getNodes();
+    INode[] getChildren();
 }

@@ -20,7 +20,7 @@ public class Node implements INode {
     }
 
     @Override
-    public Node[] getNodes() {
+    public Node[] getChildren() {
         return this.nodes;
     }
 }
