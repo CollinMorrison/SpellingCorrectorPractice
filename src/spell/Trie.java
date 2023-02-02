@@ -1,9 +1,15 @@
 package spell;
 
 public class Trie implements ITrie {
+
+    private Node root;
+
+    public Trie() {
+        this.root = new Node();
+    }
     @Override
     public void add(String word) {
-
+        System.out.println(word);
     }
 
     @Override
