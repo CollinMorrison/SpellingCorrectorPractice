@@ -21,6 +21,7 @@ public class SpellCorrector implements ISpellCorrector {
         while (scanner.hasNext()) {
             this.trie.add(scanner.next());
         }
+        System.out.println("Trie in word form: " + this.trie.toString());
     }
 
     @Override
